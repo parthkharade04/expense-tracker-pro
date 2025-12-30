@@ -1,0 +1,19 @@
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Node
+node_modules/
+npm-debug.log
+
+# Java/Maven
+target/
+*.class
+*.log
+.mvn/wrapper/maven-wrapper.properties

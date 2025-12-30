@@ -1,0 +1,10 @@
+/target
+/help.md
+.mvn/wrapper/maven-wrapper.properties
+.idea
+*.iml
+.vscode
+*.class
+*.log
+*.DS_Store
+application-local.properties
