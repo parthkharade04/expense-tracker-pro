@@ -52,8 +52,20 @@ npm install
 npm run dev
 ```
 
+## 📸 Project Demo
+| Dashboard & Stats | Expense History |
+|:-----------------:|:-----------------:|
+| ![Dashboard](screenshots/dashboard.png) | ![History Mode](screenshots/history.png) |
+
+| Add Expense Form | Mobile View |
+|:----------------:|:-----------:|
+| ![Add Expense](screenshots/add-expense.png) | ![Mobile](screenshots/mobile.png) |
+
 ## Features
 
-*   **Dashboard**: View monthly summaries.
-*   **Add Expense**: Log new expenses with categories.
-*   **AI Insights**: Get smart analysis of your spending (Coming Soon).
+*   **Dashboard**: View detailed monthly summaries.
+*   **Add Expense**: Log new expenses with categories and custom inputs.
+*   **AI Insights**: Smart analysis of your spending habits with budget alerts.
+*   **History Mode**: Track spending year-by-year and month-by-month.
+*   **Export Data**: Download your financial records to CSV/Excel.
+*   **Localized**: Fully customized for Indian Currency (₹).
