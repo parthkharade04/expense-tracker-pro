@@ -53,11 +53,11 @@ npm run dev
 ```
 
 ## 📸 Project Demo
-| Dashboard & Stats | Expense History |
+| Dashboard & Stats | Add Expense Form  |
 |:-----------------:|:-----------------:|
 | ![Dashboard](screenshots/dashboard.png) | ![Add Expense](screenshots/add-expense.png)  |
 
-| Add Expense Form | Mobile View |
+| Expense History| Mobile View |
 |:----------------:|:-----------:|
 | ![History Mode](screenshots/history.png) | ![Ai-advisor](screenshots/ai-advisor.png) |
 
