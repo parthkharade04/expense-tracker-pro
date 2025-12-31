@@ -14,9 +14,12 @@ function App() {
   const [aiInsight, setAiInsight] = useState('')
   const [analyzing, setAnalyzing] = useState(false)
 
+  // API Base URL (Dynamic)
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/api';
+
   // Fetch Expenses
   useEffect(() => {
-    fetch('http://localhost:8080/api/expenses')
+    fetch(`${API_BASE_URL}/expenses`)
       .then(res => res.json())
       .then(data => {
         setExpenses(data)
@@ -94,7 +97,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault()
 
-    fetch('http://localhost:8080/api/expenses', {
+    fetch(`${API_BASE_URL}/expenses`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData)
@@ -132,7 +135,7 @@ function App() {
 
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:8080/api/expenses/${id}`, { method: 'DELETE' })
+    fetch(`${API_BASE_URL}/expenses/${id}`, { method: 'DELETE' })
       .then(() => {
         setExpenses(expenses.filter(exp => exp.id !== id))
       })
