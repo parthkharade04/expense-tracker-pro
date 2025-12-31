@@ -57,7 +57,7 @@ npm run dev
 |:-----------------:|:-----------------:|
 | ![Dashboard](screenshots/dashboard.png) | ![Add Expense](screenshots/add-expense.png)  |
 
-| Expense History| Mobile View |
+| Expense History| AI Advisor |
 |:----------------:|:-----------:|
 | ![History Mode](screenshots/history.png) | ![Ai-advisor](screenshots/ai-advisor.png) |
 
