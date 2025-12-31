@@ -55,11 +55,11 @@ npm run dev
 ## 📸 Project Demo
 | Dashboard & Stats | Expense History |
 |:-----------------:|:-----------------:|
-| ![Dashboard](screenshots/dashboard.png) | ![History Mode](screenshots/history.png) |
+| ![Dashboard](screenshots/dashboard.png) | ![Add Expense](screenshots/add-expense.png)  |
 
 | Add Expense Form | Mobile View |
 |:----------------:|:-----------:|
-| ![Add Expense](screenshots/add-expense.png) | ![Mobile](screenshots/mobile.png) |
+| ![History Mode](screenshots/history.png) | ![Ai-advisor](screenshots/ai-advisor.png) |
 
 ## Features
 
