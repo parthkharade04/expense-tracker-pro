@@ -1,4 +1,4 @@
-# Pro Expense Tracker Web App
+# ExpenseLens
 
 A full-stack expense management system with AI insights.
 
